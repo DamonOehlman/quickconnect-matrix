@@ -4,7 +4,7 @@
   "description": "Create a matrix of connections using rtc-quickconnect (which is useful for testing)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "browserify test/all.js | broth ./node_modules/travis-multirunner/start-$BROWSER.sh | tap-spec",
     "gendocs": "gendocs > README.md"
   },
   "repository": {
@@ -26,9 +26,13 @@
     "cog": "^1.0.0",
     "cuid": "^1.2.4",
     "rtc-quickconnect": "^4.2.0",
+    "travis-multirunner": "^1.1.0",
     "whisk": "^1.1.0"
   },
   "devDependencies": {
+    "broth": "^1.1.1",
+    "browserify": "^9.0.3",
+    "tap-spec": "^2.2.2",
     "tape": "^3.5.0"
   }
 }
