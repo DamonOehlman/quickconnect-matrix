@@ -3,6 +3,18 @@ var times = require('whisk/times');
 var not = require('whisk/not');
 var extend = require('cog/extend');
 
+/**
+  # quickconnect-matrix
+
+  This is a helper utility for creating a matrix of webrtc connections using
+  [`rtc-quickconnect`](https://github.com/rtc-io/rtc-quickconnect).  This is
+  mainly used to help facilitate tests for quickconnect and associated
+  functionality.
+
+  ## Example Usage
+
+  <<< test/matrix-4.js
+**/
 module.exports = function(opts, callback) {
   // initialise core settings
   var count = (opts || {}).count || 2;
