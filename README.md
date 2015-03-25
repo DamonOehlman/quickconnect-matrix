@@ -8,7 +8,7 @@ functionality.
 
 [![NPM](https://nodei.co/npm/quickconnect-matrix.png)](https://nodei.co/npm/quickconnect-matrix/)
 
-[![bitHound Score](https://www.bithound.io/github/DamonOehlman/quickconnect-matrix/badges/score.svg)](https://www.bithound.io/github/DamonOehlman/quickconnect-matrix) 
+[![Build Status](https://img.shields.io/travis/DamonOehlman/quickconnect-matrix.svg?branch=master)](https://travis-ci.org/DamonOehlman/quickconnect-matrix) [![bitHound Score](https://www.bithound.io/github/DamonOehlman/quickconnect-matrix/badges/score.svg)](https://www.bithound.io/github/DamonOehlman/quickconnect-matrix) 
 
 ## Example Usage
 
