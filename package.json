@@ -1,0 +1,24 @@
+{
+  "name": "quickconnect-matrix",
+  "version": "1.0.0",
+  "description": "Create a matrix of connections using rtc-quickconnect which is a useful testing tool ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DamonOehlman/quickconnect-matrix.git"
+  },
+  "keywords": [
+    "quickconnect",
+    "webrtc",
+    "rtc.io"
+  ],
+  "author": "Damon Oehlman <damon.oehlman@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamonOehlman/quickconnect-matrix/issues"
+  },
+  "homepage": "https://github.com/DamonOehlman/quickconnect-matrix"
+}
