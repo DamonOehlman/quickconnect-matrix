@@ -34,6 +34,6 @@
     "browserify": "^9.0.3",
     "tap-spec": "^2.2.2",
     "tape": "^3.5.0",
-    "travis-multirunner": "^2.0.0"
+    "travis-multirunner": "^2.0.2"
   }
 }
