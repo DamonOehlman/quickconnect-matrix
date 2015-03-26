@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "browserify test/all.js | broth ./node_modules/travis-multirunner/start-$BROWSER.sh | tap-spec",
-    "gendocs": "gendocs > README.md",
-    "postinstall": "travis-sync"
+    "gendocs": "gendocs > README.md"
   },
   "repository": {
     "type": "git",
