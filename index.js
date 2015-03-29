@@ -21,7 +21,7 @@ module.exports = function(opts, callback) {
   var room = (opts || {}).room || cuid();
   var channels = (opts || {}).channels || ['default'];
 
-  var timeout = setTimeout(cancelWait, (opts || {}).timeout || 5000);
+  var timeout = setTimeout(cancelWait, (opts || {}).timeout || 20e3);
   var cancelled = false;
 
   // require quickconnect if another quickconnect package isn't specified
