@@ -1,6 +1,6 @@
 {
   "name": "quickconnect-matrix",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create a matrix of connections using rtc-quickconnect (which is useful for testing)",
   "main": "index.js",
   "scripts": {
